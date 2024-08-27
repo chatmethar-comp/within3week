@@ -56,6 +56,14 @@ class HomePage extends StatelessWidget {
               },
               child: Text('Anonymous'),
             ),
+            SizedBox(height: 20),
+
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushReplacementNamed(context, '/login');
+              },
+              child: Text('Log inR'),
+            ),
           ],
         ),
       ),
